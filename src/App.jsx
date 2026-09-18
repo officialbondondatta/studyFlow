@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
 
   return (
     <>
       <div>
-        <h2 className="text-5xl">studyflow</h2>
+        <Navbar />
       </div>
     </>
   )
