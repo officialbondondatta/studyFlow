@@ -19,11 +19,11 @@ const Navbar = () => {
 
         <div className="navbar relative bg-[#f1f2ec] shadow-sm">
             <div className="container mx-auto flex">
-                <div className="navbar-start px-4">
+                <div className="navbar-start px-4 xl:px-0">
                     <a className="flex gap-2 items-center justify-center cursor-pointer text-lg font-bold"><LuNotebookPen className="text-white bg-[#0e7c66] p-2 w-9 h-9 rounded-md" /> StudyFlow</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className=" menu-horizontal gap-4 px-1 md:px-2 text-[#6f7a73]">
+                    <ul className=" menu-horizontal gap-6 px-1 md:px-2 text-[#6f7a73]">
                         {navLinks}
                     </ul>
                 </div>
