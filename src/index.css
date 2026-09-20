@@ -9,4 +9,5 @@ body {
         linear-gradient(to right, #dedfd6 1px, transparent 1px),
         linear-gradient(to bottom, #dedfd6 1px, transparent 1px);
     background-size: 25px 25px;
+    background-attachment: fixed;
 }
