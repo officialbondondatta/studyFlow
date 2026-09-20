@@ -16,8 +16,7 @@ const Navbar = () => {
         setIsClicked(!isClicked)
     }
     return (
-
-        <div className="navbar relative bg-[#f1f2ec] shadow-sm">
+        <nav className="navbar relative z-50 bg-[#f1f2ec] after:absolute after:inset-0 after:z-30 after:shadow-md after:pointer-events-none after:content-['']">
             <div className="container mx-auto flex">
                 <div className="navbar-start px-4 xl:px-0">
                     <a className="flex gap-2 items-center justify-center cursor-pointer text-lg font-bold"><LuNotebookPen className="text-white bg-[#0e7c66] p-2 w-9 h-9 rounded-md" /> StudyFlow</a>
@@ -35,7 +34,7 @@ const Navbar = () => {
                         </button>
                         {isClicked && <>
                             <ul
-                                className="menu m-0 font-semibold absolute left-0 top-full -z-1 p-3 w-full bg-[#f1f2ec]">
+                                className="menu m-0 z-20 font-semibold absolute left-0 top-full p-3 w-full bg-[#f1f2ec]">
                                 {navLinks}
                                 <li><button className="lg:hidden cursor-pointer">Login</button></li>
                                 <li><button className="btn bg-[#0e7c66] text-white rounded-xl lg:hidden">Get Started</button></li>
@@ -51,7 +50,7 @@ const Navbar = () => {
                 </div>
 
             </div>
-        </div>
+        </nav>
     );
 };
 
