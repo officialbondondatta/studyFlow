@@ -16,7 +16,7 @@ const Banner = () => {
             </div>
 
             <div className="card bg-base-100 mt-4 rounded-xl border border-slate-300">
-                <div className="card-body space-y-2">
+                <div className="px-5 py-5 space-y-2">
                     <div>
                         <div className="flex items-center justify-between mb-2">
                             <h2 className="text-slate-500">Today's Progress</h2>
@@ -25,13 +25,13 @@ const Banner = () => {
                         <progress className="progress  text-[#0e7c66]" value="70" max="100"></progress>
                     </div>
                     <div className="py-3 px-2 border border-slate-300 rounded-xl line-through text-slate-500">
-                        <p className="flex w-96 items-center gap-2"><FaRegCheckCircle className="text-[#0e7c66]" />Solve 10 integration problems</p>
+                        <p className="flex lg:w-96 w-85  items-center gap-2"><FaRegCheckCircle className="text-[#0e7c66]" />Solve 10 integration problems</p>
                     </div>
                     <div className="py-3 px-2 border border-slate-300 rounded-xl line-through text-slate-500">
-                        <p className="flex w-96 items-center gap-2"><FaRegCheckCircle className="text-[#0e7c66]" />Read Chapter 4: Cell Structures</p>
+                        <p className="flex lg:w-96 w-85  items-center gap-2"><FaRegCheckCircle className="text-[#0e7c66]" />Read Chapter 4: Cell Structures</p>
                     </div>
                     <div className="py-3 px-2 border border-slate-300 rounded-xl line-through text-slate-500">
-                        <p className="flex w-96 items-center gap-2"><FaRegCheckCircle className="text-slate-300" />Write essay outline</p>
+                        <p className="flex lg:w-96 w-85 items-center gap-2"><FaRegCheckCircle className="text-slate-300" />Write essay outline</p>
                     </div>
                 </div>
             </div>
