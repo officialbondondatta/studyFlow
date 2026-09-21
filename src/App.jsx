@@ -4,6 +4,7 @@ import Features from "./components/Features";
 import Goals from "./components/Goals";
 import HowitWorks from "./components/HowitWorks";
 import Navbar from "./components/Navbar";
+import Rating from "./components/Rating";
 import Stats from "./components/Stats";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Features></Features>
         <HowitWorks></HowitWorks>
         <AiDayPlanning></AiDayPlanning>
+        <Rating></Rating>
       </div>
     </>
   )
