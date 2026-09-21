@@ -1,5 +1,6 @@
 import AiDayPlanning from "./components/AiDayPlanning";
 import Banner from "./components/Banner";
+import Faq from "./components/Faq";
 import Features from "./components/Features";
 import Goals from "./components/Goals";
 import HowitWorks from "./components/HowitWorks";
@@ -22,6 +23,7 @@ function App() {
         <AiDayPlanning></AiDayPlanning>
         <Rating></Rating>
         <PlanPricing></PlanPricing>
+        <Faq></Faq>
       </div>
     </>
   )
