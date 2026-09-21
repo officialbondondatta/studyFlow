@@ -1,3 +1,4 @@
+import AiDayPlanning from "./components/AiDayPlanning";
 import Banner from "./components/Banner";
 import Features from "./components/Features";
 import Goals from "./components/Goals";
@@ -16,6 +17,7 @@ function App() {
         <Goals></Goals>
         <Features></Features>
         <HowitWorks></HowitWorks>
+        <AiDayPlanning></AiDayPlanning>
       </div>
     </>
   )
