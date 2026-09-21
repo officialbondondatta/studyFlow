@@ -36,7 +36,7 @@ const Faq = () => {
     ];
 
     return (
-        <section className="container mx-auto p-5 lg:p-0 lg:mt-20 mt-10">
+        <section className="container mx-auto p-5 lg:p-0 lg:mt-20 mt-10 max-w-180">
             <SectionHeader title={title}></SectionHeader>
             <div className="flex flex-col gap-5">
                 {
