@@ -4,6 +4,7 @@ import Faq from "./components/Faq";
 import Features from "./components/Features";
 import Goals from "./components/Goals";
 import HowitWorks from "./components/HowitWorks";
+import Marketting from "./components/Marketting";
 import Navbar from "./components/Navbar";
 import PlanPricing from "./components/PlanPricing";
 import Rating from "./components/Rating";
@@ -24,6 +25,7 @@ function App() {
         <Rating></Rating>
         <PlanPricing></PlanPricing>
         <Faq></Faq>
+        <Marketting></Marketting>
       </div>
     </>
   )
