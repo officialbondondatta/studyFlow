@@ -51,8 +51,8 @@ const PlanPricing = () => {
                                 <span className="text-slate-500">{plan.expiry}</span>
                             </h2>
                             <div className="flex flex-col space-y-3">
-                                {plan.features.map(feature => (
-                                    <span className="flex items-center gap-2"><IoMdCheckmark className="text-[#0e7c66] text-lg font-bold]" />{feature}</span>
+                                {plan.features.map((feature, index) => (
+                                    <span key={index} className="flex items-center gap-2"><IoMdCheckmark className="text-[#0e7c66] text-lg font-bold]" />{feature}</span>
                                 ))}
                             </div>
                             <button className={` ${plan.name === "Pro" ? "bg-[#0e7c66] text-white cursor-pointer" : "bg-white btn"}  py-2 rounded-xl w-full mt-2`}>Get Started</button>
