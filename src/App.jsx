@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Features from "./components/Features";
 import Goals from "./components/Goals";
+import HowitWorks from "./components/HowitWorks";
 import Navbar from "./components/Navbar";
 import Stats from "./components/Stats";
 
@@ -14,6 +15,7 @@ function App() {
         <Stats></Stats>
         <Goals></Goals>
         <Features></Features>
+        <HowitWorks></HowitWorks>
       </div>
     </>
   )
