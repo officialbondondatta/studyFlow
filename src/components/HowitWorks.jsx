@@ -6,7 +6,7 @@ const HowitWorks = () => {
         <section className="container mx-auto lg:mt-30 md:mt-30 mt-10">
             <SectionHeader title={title}></SectionHeader>
 
-            <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-5">
+            <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-5 p-5 lg:p-0">
                 <div className="text-center space-y-3 flex flex-col items-center justify-center">
                     <span className="text-4xl font-bold">01</span>
                     <h2 className="font-semibold text-xl">Set a goal</h2>

@@ -26,7 +26,7 @@ const Goals = () => {
     return (
         <section className="mb-10 container mx-auto">
             <SectionHeader title={title} description={description}></SectionHeader>
-            <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 p-5 lg:p-0">
                 <SectionCards icon={card_01.icon} title={card_01.title} description={card_01.description}></SectionCards>
                 <SectionCards icon={card_02.icon} title={card_02.title} description={card_02.description}></SectionCards>
                 <SectionCards icon={card_03.icon} title={card_03.title} description={card_03.description}></SectionCards>

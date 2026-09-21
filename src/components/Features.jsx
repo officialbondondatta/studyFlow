@@ -41,7 +41,7 @@ const Features = () => {
     return (
         <section className="container mx-auto lg:mt-30 md:mt-30 mt-10 mb-10">
             <SectionHeader title={title} description={description}></SectionHeader>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 p-5 lg:p-0">
                 <SectionCards icon={card_01.icon} title={card_01.title} description={card_01.description}></SectionCards>
                 <SectionCards icon={card_02.icon} title={card_02.title} description={card_02.description}></SectionCards>
                 <SectionCards icon={card_03.icon} title={card_03.title} description={card_03.description}></SectionCards>
