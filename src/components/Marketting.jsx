@@ -1,6 +1,4 @@
 import { FaArrowRight } from "react-icons/fa";
-import SectionHeader from "./Shared/SectionHeader";
-
 const Marketting = () => {
     const title = "Your next study session could be the one that sticks"
     const description = "Set your first goal in under two minutes. No credit card required."

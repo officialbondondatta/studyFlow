@@ -16,7 +16,7 @@ const Navbar = () => {
         setIsClicked(!isClicked)
     }
     return (
-        <nav className="navbar relative z-50 bg-[#f1f2ec] after:absolute after:inset-0 after:z-30 after:shadow-md after:pointer-events-none after:content-['']">
+        <nav className="navbar py-5 sticky top-0 z-50 bg-[#f1f2ec] after:absolute after:inset-0 after:z-30 after:shadow-md after:pointer-events-none after:content-['']">
             <div className="container mx-auto flex">
                 <div className="navbar-start px-4 xl:px-0">
                     <a className="flex gap-2 items-center justify-center cursor-pointer text-lg font-bold"><LuNotebookPen className="text-white bg-[#0e7c66] p-2 w-9 h-9 rounded-md" /> StudyFlow</a>
