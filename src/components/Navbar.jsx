@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { LuNotebookPen } from "react-icons/lu";
 import { RxCross2, RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router";
 
 const Navbar = () => {
     const [isClicked, setIsClicked] = useState(false)
@@ -36,15 +37,21 @@ const Navbar = () => {
                             <ul
                                 className="menu m-0 z-20 font-semibold absolute left-0 top-full p-3 w-full bg-[#f1f2ec]">
                                 {navLinks}
-                                <li><button className="lg:hidden cursor-pointer">Login</button></li>
+                                <li>
+                                    <Link to="/signin">
+                                        <button className="lg:hidden cursor-pointer">Login</button>
+                                    </Link>
+                                </li>
                                 <li><button className="btn bg-[#0e7c66] text-white rounded-xl lg:hidden">Get Started</button></li>
                             </ul>
 
                         </>
                         }
                     </div>
-                    <div className="flex gap-2 px-3 ">
-                        <button className="hidden lg:block md:block cursor-pointer">Login</button>
+                    <div className="flex gap-5 px-3 items-center">
+                        <Link to="/signin">
+                            <button className="hidden border border-slate-500 px-6 py-1 rounded-md lg:block md:block cursor-pointer">Login</button>
+                        </Link>
                         <button className="btn hidden md:block bg-[#0e7c66] text-white rounded-xl lg:block">Get Started</button>
                     </div>
                 </div>
